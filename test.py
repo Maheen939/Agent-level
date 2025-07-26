@@ -43,4 +43,4 @@ if __name__ == "__main__":
     try:
         asyncio.run(run_agent())
     except Exception as e:
-        print(f"🚨 Error occurred: {e}")
+        print(f"Error occurred: {e}")
